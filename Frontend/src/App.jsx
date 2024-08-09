@@ -6,6 +6,7 @@ import Products from "./components/Products/Products"
 import Sliders from "./components/Slider/Sliders"
 import Campaigns from "./components/Campagins/Campaigns"
 import "./App.css"
+import Blogs from "./components/Blogs/Blogs"
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
         <Products/>
         <Campaigns/>
         <Products/>
+        <Blogs/>
         <Policy/>
         <Footer/>
     </div>
