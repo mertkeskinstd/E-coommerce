@@ -7,6 +7,7 @@ import Sliders from "./components/Slider/Sliders"
 import Campaigns from "./components/Campagins/Campaigns"
 import "./App.css"
 import Blogs from "./components/Blogs/Blogs"
+import Brands from "./components/Brands/Brands"
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Campaigns/>
         <Products/>
         <Blogs/>
+        <Brands />
         <Policy/>
         <Footer/>
     </div>
