@@ -1,30 +1,14 @@
-import Categories from "./components/Categories/Categories"
-import Footer from "./components/Layout/Footer"
-import Header from "./components/Layout/Header"
-import Policy from "./components/Layout/Policy"
-import Products from "./components/Products/Products"
-import Sliders from "./components/Slider/Sliders"
-import Campaigns from "./components/Campagins/Campaigns"
-import "./App.css"
-import Blogs from "./components/Blogs/Blogs"
-import Brands from "./components/Brands/Brands"
 
+import React from "react"
+import "./App.css"
+import HomePage from "./pages/HomePage"
 
 
 const App = () => {
   return (
-    <div>
-        <Header/>
-        <Sliders/>
-        <Categories/>
-        <Products/>
-        <Campaigns/>
-        <Products/>
-        <Blogs/>
-        <Brands />
-        <Policy/>
-        <Footer/>
-    </div>
+    <React.Fragment>
+    <HomePage />
+  </React.Fragment>
   )
 }
 
