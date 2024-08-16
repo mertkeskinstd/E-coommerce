@@ -1,7 +1,9 @@
 
 import React from "react"
 import "./App.css"
-import ContactPage from "./pages/ContactPage"
+import CartPage from "./pages/CartPage"
+// import ContactPage from "./pages/ContactPage"
+// import AuthPage from "./pages/AuthPage"
 // import ShopPage from "./pages/ShopPage"
 // import HomePage from "./pages/HomePage"
 
@@ -9,11 +11,13 @@ import ContactPage from "./pages/ContactPage"
 const App = () => {
   return (
     <React.Fragment>
-    {/* <HomePage /> */}
-    {/* <ShopPage/> */}
-    <ContactPage/>
+      {/* <HomePage /> */}
+      {/* <ShopPage/> */}
+      {/* <ContactPage/> */}
+      {/* <AuthPage/> */}
+      <CartPage />
 
-  </React.Fragment>
+    </React.Fragment>
   )
 }
 
