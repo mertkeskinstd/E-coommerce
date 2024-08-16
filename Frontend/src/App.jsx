@@ -1,7 +1,10 @@
 
 import React from "react"
-import "./App.css"
-import CartPage from "./pages/CartPage"
+// import ProductDetailsPage from "./pages/ProductDetailsPage"
+// import BlogPage from "./pages/BlogPage"
+import BlogDetailsPage from "./pages/BlogDetailsPage"
+// import "./App.css"
+// import CartPage from "./pages/CartPage"
 // import ContactPage from "./pages/ContactPage"
 // import AuthPage from "./pages/AuthPage"
 // import ShopPage from "./pages/ShopPage"
@@ -15,7 +18,10 @@ const App = () => {
       {/* <ShopPage/> */}
       {/* <ContactPage/> */}
       {/* <AuthPage/> */}
-      <CartPage />
+      {/* <CartPage /> */}
+      {/* <BlogPage/> */}
+      <BlogDetailsPage/>
+      {/* <ProductDetailsPage/> */}
 
     </React.Fragment>
   )

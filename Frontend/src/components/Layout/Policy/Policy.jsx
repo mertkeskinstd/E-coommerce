@@ -1,4 +1,4 @@
-import "../css/Policy.css"
+import "../../css/Policy.css"
 
 
 const Policy = () => {

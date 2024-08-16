@@ -1,6 +1,6 @@
 import React from "react"
-import "../css/Footer.css"
-import Policy from  "./Policy"
+import "../../css/Footer.css"
+import Policy from  "../Policy/Policy"
 
 const Footer = () => {
     return (
